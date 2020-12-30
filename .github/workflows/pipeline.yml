@@ -41,3 +41,4 @@ jobs:
           heroku_email: "irfan.abrazak@gmail.com"
           healthcheck: "https://fsopokedex.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
